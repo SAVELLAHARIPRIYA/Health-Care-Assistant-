@@ -1,0 +1,145 @@
+{
+  "cd36f9f3ec5f249f032b83f8da38e8996b7ef4cfebee1dc4e47e79455726efd1": {
+    "symptoms_preview": "I am suffering from fever , Diarrhea and cough. My head ache also aches and body pains.",
+    "data": {
+      "diagnoses": [
+        {
+          "name": "Acute Migraine with/without Aura",
+          "likelihood": "High",
+          "rationale": "Unilateral or throbbing headache associated with nausea, photophobia, or phonophobia, typically lasting 4-72 hours.",
+          "treatments": [
+            "Triptan therapy (e.g., Sumatriptan 50-100 mg PO or 6 mg SC at onset)",
+            "NSAID (Naproxen 500 mg or Ketorolac 30 mg IV/IM)",
+            "Antiemetic adjunct (Metoclopramide 10 mg IV)",
+            "Rest in a quiet, dark environment with adequate hydration"
+          ],
+          "urgency": "Urgent",
+          "recommended_tests": [
+            "Neurological examination (cranial nerves, motor, sensory, cerebellar)",
+            "Brain MRI/CT if red flags present"
+          ]
+        },
+        {
+          "name": "Tension-Type Headache (TTH)",
+          "likelihood": "Moderate",
+          "rationale": "Bilateral, non-pulsating band-like pressure of mild to moderate intensity without severe nausea or disabling vomiting.",
+          "treatments": [
+            "Simple analgesics (Acetaminophen 1000 mg or Ibuprofen 400 mg)",
+            "Stress reduction techniques, hydration, and neck massage",
+            "Avoid frequent analgesic overuse to prevent medication overuse headache"
+          ],
+          "urgency": "Routine",
+          "recommended_tests": [
+            "Fundoscopic examination",
+            "Cervical spine assessment"
+          ]
+        },
+        {
+          "name": "Secondary Headache / Meningitis or Subarachnoid Hemorrhage",
+          "likelihood": "Low",
+          "rationale": "Must be excluded if sudden 'thunderclap' onset, fever, neck stiffness (meningismus), or focal neurologic deficits are present.",
+          "treatments": [
+            "Immediate Non-contrast Head CT (rule out SAH)",
+            "Lumbar Puncture (CSF analysis for opening pressure, cell count, culture)",
+            "Empiric IV antibiotics (Ceftriaxone + Vancomycin) and Dexamethasone if meningitis suspected"
+          ],
+          "urgency": "Emergency",
+          "recommended_tests": [
+            "Emergent Non-contrast Head CT",
+            "Lumbar Puncture with CSF Panel",
+            "Blood Cultures x2"
+          ]
+        }
+      ],
+      "immediate_recommendations": [
+        "Assess for Kernig's and Brudzinski's signs and check pupillary symmetry.",
+        "Inquire specifically about maximal pain intensity at onset ('thunderclap')."
+      ],
+      "red_flags": [
+        "Sudden instantaneous onset reaching 10/10 severity in seconds",
+        "Nuchal rigidity, high fever, or altered mental status",
+        "New onset neurological focal weakness or speech difficulty"
+      ],
+      "disclaimer": "HealthTrack AI decision support. Always screen for SNOOP4 secondary headache red flags.",
+      "_notice": "Live Gemini API failed after retries (404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}). Circuit failure counter incremented.",
+      "_source": "FALLBACK_MOCK"
+    },
+    "timestamp": 1792295829.4984827,
+    "hit_count": 1
+  },
+  "7fe4518dbdb0c27e72c27e532d8e6961734f437f5e04d31f338a471c14f42e84": {
+    "symptoms_preview": "the boy is having stomach ache near the abdomine. Whatever he eats falling in vomiting. Not feeling ",
+    "data": {
+      "diagnoses": [
+        {
+          "name": "Acute Appendicitis",
+          "likelihood": "High",
+          "rationale": "Acute onset of abdominal pain associated with persistent emesis and progressive lethargy or decreased activity in a pediatric male represents a classic presentation that requires emergent exclusion of appendiceal inflammation.",
+          "treatments": [
+            "Place patient on strict NPO (nil per os) status immediately",
+            "Initiate IV isotonic fluid resuscitation (Normal Saline or Lactated Ringer's)",
+            "Administer IV broad-spectrum antibiotics (e.g., ceftriaxone plus metronidazole or piperacillin-tazobactam) if peritonitis or perforation is suspected",
+            "Obtain urgent pediatric surgery consultation for prospective appendectomy"
+          ],
+          "urgency": "Emergency",
+          "recommended_tests": [
+            "Point-of-care ultrasound of the appendix (first-line in pediatrics)",
+            "Complete Blood Count (CBC) with differential",
+            "C-Reactive Protein (CRP)",
+            "Comprehensive Metabolic Panel (CMP)"
+          ]
+        },
+        {
+          "name": "Acute Gastroenteritis with Significant Dehydration",
+          "likelihood": "Moderate",
+          "rationale": "Sudden onset of abdominal cramps and severe post-prandial vomiting is frequently caused by acute viral or bacterial enteritis; the observed lethargy and malaise often reflect rapid intravascular volume depletion.",
+          "treatments": [
+            "Weight-based IV fluid rehydration using isotonic crystalloids (20 mL/kg bolus if signs of hypovolemia are present)",
+            "Single-dose antiemetic administration (oral or IV Ondansetron based on pediatric weight)",
+            "Careful staged trial of Oral Rehydration Solution (ORS) once emesis is medically suppressed"
+          ],
+          "urgency": "Urgent",
+          "recommended_tests": [
+            "Serum electrolytes and basic metabolic panel (evaluating for hypokalemia or metabolic acidosis)",
+            "Point-of-care capillary blood glucose",
+            "Urinalysis (for specific gravity, ketonuria, and exclusion of UTI)"
+          ]
+        },
+        {
+          "name": "Pediatric Intussusception or Mechanical Bowel Obstruction",
+          "likelihood": "Moderate",
+          "rationale": "Inability to retain any enteral intake paired with sudden abdominal distress and significant lethargy ('lethargy spells') is a classic clinical picture for intussusception or proximal intestinal mechanical obstruction.",
+          "treatments": [
+            "Immediate nasogastric (NG) tube decompression to prevent pulmonary aspiration",
+            "IV fluid stabilization and electrolyte correction",
+            "Urgent diagnostic and therapeutic pneumatic (air) or hydrostatic contrast enema reduction (if non-perforated intussusception)",
+            "Emergency pediatric surgical consultation"
+          ],
+          "urgency": "Emergency",
+          "recommended_tests": [
+            "Targeted abdominal ultrasound ('target' or 'doughnut' sign)",
+            "Plain abdominal X-ray series (upright and supine to evaluate air-fluid levels and rule out free air)",
+            "Venous blood gas with lactate"
+          ]
+        }
+      ],
+      "immediate_recommendations": [
+        "Place the child on strict NPO status to prevent pulmonary aspiration and facilitate possible urgent surgery.",
+        "Establish reliable peripheral IV access and begin isotonic crystalloid rehydration.",
+        "Perform immediate point-of-care blood glucose and urine/blood ketone testing to rule out pediatric Diabetic Ketoacidosis (DKA).",
+        "Perform gentle serial abdominal examinations evaluating for peritoneal signs (rigidity, guarding, rebound)."
+      ],
+      "red_flags": [
+        "Development of bilious (bright green or dark green) or hematemesis",
+        "Marked lethargy, altered mental status, or unresponsiveness",
+        "Severe abdominal distension, involuntary guarding, or 'board-like' rigidity",
+        "Signs of systemic shock (capillary refill > 3 seconds, tachycardia, weak central pulses, cold extremities)",
+        "Passage of 'currant jelly' stools (mucus mixed with blood)"
+      ],
+      "disclaimer": "HealthTrack AI is an assistive decision-support tool for licensed healthcare professionals and does not replace autonomous clinical examination.",
+      "_source": "GEMINI_API (gemini-3.8-flash)"
+    },
+    "timestamp": 1792296501.3144548,
+    "hit_count": 0
+  }
+}

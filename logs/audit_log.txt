@@ -1,0 +1,65 @@
+================================================================================
+[AUDIT LOG ENTRY] ID: 2bded355 | Timestamp: 2026-10-18 09:27:09
+Source: FALLBACK_MOCK | Status: SUCCESS | Latency: 4.134s
+Patient Context: {"age_bracket": "Adult (18-64)", "biological_sex": "Unspecified", "duration": "1-3 Days (Acute)"}
+INPUT SYMPTOMS:
+  "I am suffering from fever , Diarrhea and cough. My head ache also aches and body pains."
+
+MODEL OUTPUT DIAGNOSES & TREATMENTS:
+    1. Acute Migraine with/without Aura [Likelihood: High] -> Treatments: Triptan therapy (e.g., Sumatriptan 50-100 mg PO or 6 mg SC at onset), NSAID (Naproxen 500 mg or Ketorolac 30 mg IV/IM), Antiemetic adjunct (Metoclopramide 10 mg IV), Rest in a quiet, dark environment with adequate hydration
+    2. Tension-Type Headache (TTH) [Likelihood: Moderate] -> Treatments: Simple analgesics (Acetaminophen 1000 mg or Ibuprofen 400 mg), Stress reduction techniques, hydration, and neck massage, Avoid frequent analgesic overuse to prevent medication overuse headache
+    3. Secondary Headache / Meningitis or Subarachnoid Hemorrhage [Likelihood: Low] -> Treatments: Immediate Non-contrast Head CT (rule out SAH), Lumbar Puncture (CSF analysis for opening pressure, cell count, culture), Empiric IV antibiotics (Ceftriaxone + Vancomycin) and Dexamethasone if meningitis suspected
+================================================================================
+
+================================================================================
+[AUDIT LOG ENTRY] ID: 70267986 | Timestamp: 2026-10-18 09:30:51
+Source: CACHE | Status: SUCCESS | Latency: 0.000s
+Patient Context: {"age_bracket": "Adult (18-64)", "biological_sex": "Unspecified", "duration": "1-3 Days (Acute)"}
+INPUT SYMPTOMS:
+  "I am suffering from fever , Diarrhea and cough. My head ache also aches and body pains."
+
+MODEL OUTPUT DIAGNOSES & TREATMENTS:
+    1. Acute Migraine with/without Aura [Likelihood: High] -> Treatments: Triptan therapy (e.g., Sumatriptan 50-100 mg PO or 6 mg SC at onset), NSAID (Naproxen 500 mg or Ketorolac 30 mg IV/IM), Antiemetic adjunct (Metoclopramide 10 mg IV), Rest in a quiet, dark environment with adequate hydration
+    2. Tension-Type Headache (TTH) [Likelihood: Moderate] -> Treatments: Simple analgesics (Acetaminophen 1000 mg or Ibuprofen 400 mg), Stress reduction techniques, hydration, and neck massage, Avoid frequent analgesic overuse to prevent medication overuse headache
+    3. Secondary Headache / Meningitis or Subarachnoid Hemorrhage [Likelihood: Low] -> Treatments: Immediate Non-contrast Head CT (rule out SAH), Lumbar Puncture (CSF analysis for opening pressure, cell count, culture), Empiric IV antibiotics (Ceftriaxone + Vancomycin) and Dexamethasone if meningitis suspected
+================================================================================
+
+================================================================================
+[AUDIT LOG ENTRY] ID: 05f6c1cc | Timestamp: 2026-10-18 09:36:01
+Source: CACHE | Status: SUCCESS | Latency: 0.000s
+Patient Context: {"age_bracket": "Adult (18-64)", "biological_sex": "Unspecified", "duration": "1-3 Days (Acute)"}
+INPUT SYMPTOMS:
+  "I am suffering from fever , Diarrhea and cough. My head ache also aches and body pains."
+
+MODEL OUTPUT DIAGNOSES & TREATMENTS:
+    1. Acute Migraine with/without Aura [Likelihood: High] -> Treatments: Triptan therapy (e.g., Sumatriptan 50-100 mg PO or 6 mg SC at onset), NSAID (Naproxen 500 mg or Ketorolac 30 mg IV/IM), Antiemetic adjunct (Metoclopramide 10 mg IV), Rest in a quiet, dark environment with adequate hydration
+    2. Tension-Type Headache (TTH) [Likelihood: Moderate] -> Treatments: Simple analgesics (Acetaminophen 1000 mg or Ibuprofen 400 mg), Stress reduction techniques, hydration, and neck massage, Avoid frequent analgesic overuse to prevent medication overuse headache
+    3. Secondary Headache / Meningitis or Subarachnoid Hemorrhage [Likelihood: Low] -> Treatments: Immediate Non-contrast Head CT (rule out SAH), Lumbar Puncture (CSF analysis for opening pressure, cell count, culture), Empiric IV antibiotics (Ceftriaxone + Vancomycin) and Dexamethasone if meningitis suspected
+================================================================================
+
+================================================================================
+[AUDIT LOG ENTRY] ID: cf96d959 | Timestamp: 2026-10-18 09:36:25
+Source: CACHE | Status: SUCCESS | Latency: 0.000s
+Patient Context: {"age_bracket": "Adult (18-64)", "biological_sex": "Unspecified", "duration": "1-3 Days (Acute)"}
+INPUT SYMPTOMS:
+  "I am suffering from fever , Diarrhea and cough. My head ache also aches and body pains."
+
+MODEL OUTPUT DIAGNOSES & TREATMENTS:
+    1. Acute Migraine with/without Aura [Likelihood: High] -> Treatments: Triptan therapy (e.g., Sumatriptan 50-100 mg PO or 6 mg SC at onset), NSAID (Naproxen 500 mg or Ketorolac 30 mg IV/IM), Antiemetic adjunct (Metoclopramide 10 mg IV), Rest in a quiet, dark environment with adequate hydration
+    2. Tension-Type Headache (TTH) [Likelihood: Moderate] -> Treatments: Simple analgesics (Acetaminophen 1000 mg or Ibuprofen 400 mg), Stress reduction techniques, hydration, and neck massage, Avoid frequent analgesic overuse to prevent medication overuse headache
+    3. Secondary Headache / Meningitis or Subarachnoid Hemorrhage [Likelihood: Low] -> Treatments: Immediate Non-contrast Head CT (rule out SAH), Lumbar Puncture (CSF analysis for opening pressure, cell count, culture), Empiric IV antibiotics (Ceftriaxone + Vancomycin) and Dexamethasone if meningitis suspected
+================================================================================
+
+================================================================================
+[AUDIT LOG ENTRY] ID: 602b863b | Timestamp: 2026-10-18 09:38:21
+Source: GEMINI_API (gemini-3.8-flash) | Status: SUCCESS | Latency: 16.446s
+Patient Context: {"age_bracket": "Pediatric (< 12)", "biological_sex": "Male", "duration": "< 24 Hours (Hyperacute)"}
+INPUT SYMPTOMS:
+  "the boy is having stomach ache near the abdomine. Whatever he eats falling in vomiting. Not feeling well. Not active."
+
+MODEL OUTPUT DIAGNOSES & TREATMENTS:
+    1. Acute Appendicitis [Likelihood: High] -> Treatments: Place patient on strict NPO (nil per os) status immediately, Initiate IV isotonic fluid resuscitation (Normal Saline or Lactated Ringer's), Administer IV broad-spectrum antibiotics (e.g., ceftriaxone plus metronidazole or piperacillin-tazobactam) if peritonitis or perforation is suspected, Obtain urgent pediatric surgery consultation for prospective appendectomy
+    2. Acute Gastroenteritis with Significant Dehydration [Likelihood: Moderate] -> Treatments: Weight-based IV fluid rehydration using isotonic crystalloids (20 mL/kg bolus if signs of hypovolemia are present), Single-dose antiemetic administration (oral or IV Ondansetron based on pediatric weight), Careful staged trial of Oral Rehydration Solution (ORS) once emesis is medically suppressed
+    3. Pediatric Intussusception or Mechanical Bowel Obstruction [Likelihood: Moderate] -> Treatments: Immediate nasogastric (NG) tube decompression to prevent pulmonary aspiration, IV fluid stabilization and electrolyte correction, Urgent diagnostic and therapeutic pneumatic (air) or hydrostatic contrast enema reduction (if non-perforated intussusception), Emergency pediatric surgical consultation
+================================================================================
+
